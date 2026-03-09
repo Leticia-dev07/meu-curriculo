@@ -1,0 +1,61 @@
+/*line height padrão 1.5 ou 1.6 decidir utilizar 1.5 para controlar os espaços obs: body não é classe por isso sem .body ok? 40 px para espaço nas bordas*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5; /* espaço entre linhas do texto */
+    background-color: #f0f0f0; /* fundo cinza da página hihi */
+}
+
+/*
+main =Aqui criamos o efeito de documento no centro da tela*/
+main{
+    background-color: white; /* fundo branco da folha */
+    max-width: 800px; /* largura máxima da folha */
+    margin: 40px auto;/* centraliza horizontalmente e cria espaço vertical */
+    padding: 40px; /* espaço interno  */
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1); /* sombra para parecer papel*/
+}
+
+.cabecalho{
+    text-align: auto;
+    margin-bottom: 30px; /* espaço entre cabeçalho e próxima seção */
+}
+h1{
+    font-size: 32px; /* tamanho grande para destaque do nome */
+    margin-bottom: 10px; /* espaço abaixo do nome */
+}
+
+.secao{
+    margin-bottom: 25px;
+}
+
+h2{
+    border-bottom: 1px solid #000; /* linha abaixo do título */
+    padding-bottom: 5px;    /* espaço entre texto e linha */
+    margin-bottom: 15px; /* espaço antes do conteúdo */
+}
+
+p{
+    margin-bottom: 10px;    /* espaço entre blocos de texto UWU */
+}
+
+a{
+    color: #000;
+    text-decoration: none;  /* remove sublinhado padrão */
+    cursor: pointer;    /* mostra mãozinha ao passar o mouse */
+    transition: 0.2s;   /* animação suave na mudança de estilo */
+}
+
+/*
+EFEITO AO PASSAR O MOUSE NO LINK
+*/
+a:hover{
+    text-decoration-line: underline;    /* sublinha o link :)nice*/
+    color: #0783ff; /* muda a cor para azul */
+
+}
+
+.rodape{
+    text-align: center;
+    margin-top: 40px;   /* espaço antes do rodapé */
+    font-size: 14px;    /* texto menor */
+}
